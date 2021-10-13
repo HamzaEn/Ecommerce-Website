@@ -1,0 +1,35 @@
+#A{
+    
+    width: 100%;
+    left: 0;
+}
+
+.vertical-line{
+    border-left: 2px solid #000;
+    color: blanchedalmond;
+    display: inline-block;
+    height: 45px;
+    margin: 0 10px;
+    background-color: red;
+}
+
+#mor{
+    margin-top: 100;
+    
+}
+
+#panier{
+    margin-left: 30;
+    
+}
+
+#span0{
+    width: 200px;
+}
+
+.abc{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+}
+

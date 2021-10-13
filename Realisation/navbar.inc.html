@@ -1,0 +1,98 @@
+  <html>
+    <head></head>
+    <body>
+  <div class="container">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="A">
+      <div class="logo">
+          <a href="index.php">
+      <img src="img/12345.png">
+          </a>
+      </div>  
+                <!-- 7anouti -->
+      <a class="navbar-brand" href="index.php">7anouti</a>
+        <ul class="navbar-nav mr-auto">
+          <!-- morocco -->
+          <div class="form-inline">
+          <span class="vertical-line"></span>
+          <img src="img/map_marker1.png" class="form_inline">
+          <li class="nav-item form-inline"><a class="nav-link navbar-brand " href="#" id="mor" style="color: pink;width: 100px;">Morocco</a></li>
+          <span class="vertical-line"></span>
+          </div>
+          
+
+                    <!-- Dropdown Categori 
+          <li class="nav-item dropdown form-inline">
+            <a class="nav-link dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Categorie</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">HTML et CSS</a>
+              <a class="dropdown-item" href="#">JavaScript</a>
+              <a class="dropdown-item" href="#">PHP et MySQL</a>
+            </div>
+          </li>-->
+          <div class="form-inline">
+            <a href="connexion_compte.php" class="navbar-brand btn btn-danger">Se connecter</a>
+            <span class="vertical-line" style="margin-left: -10px"></span>
+ 
+          </div>
+
+          <!-- Search -->
+          <form class="form-inline"  action="Search.php" method="POST">
+            <select class="form-control mr-sm-1" size="1" name="cat_deco">
+              <option value="Categorie">Categorie</option>
+              <option value="Telephone">Telephone</option>
+              <option value="Tv">Tv</option>
+              <option value="Pc">Pc</option>
+            </select>
+
+            <select class="form-control mr-sm-1" size="1" name="marque_dec">
+              <option value="Marque">Marque</option>
+              <option value="Samsung">Samsung</option>
+              <option value="Apple">Apple</option>
+              <option value="Oppo">Oppo</option>
+              <option value="Infinix">Infinix</option>
+              <option value="Xiaomi">Xiaomi</option>
+              <option value="Visio">Visio</option>
+              <option value="Revolution">Revolution</option>
+              <option value="Hisense">Hisense</option>
+              <option value="Philips">Philips</option>
+              <option value="Hp">Hp</option>
+              <option value="Philips">Dell</option>
+              <option value="Lenovo">Lenovo</option>
+              <option value="Toshiba">Toshiba</option>
+              <option value="Asus">Asus</option>
+
+            </select>
+
+
+           <input class="form-control mr-sm-2" id="span0" type="search" name="search_barre_deco" placeholder="Search" aria-label="Search" value='' style="width:270px;"></input>
+         <!-- <select class="form-control mr-sm-1" size="1">
+              <option value ="0">Couleur</option>
+              <option value="Noir">Noir</option>
+              <option value="Bleu">Bleu</option>
+              <option value="Blanc">Blanc</option>
+              <option value="Vert">Vert</option>
+              <option value="Rouge">Rouge</option>
+              <div class="dropdown-divider"></div>
+              <option value="Gold">Gold</option>
+
+            </select>-->
+          <button class="btn btn-outline-info my-3 my-sm-0" type="submit" name="Search_deco">Search</button>
+                    <!--Panier -->
+          <span class="vertical-line"></span>
+          <a href="panier.php" class="abc" style="text-decoration: none; margin-left:18px">
+          <img src="img/panier.png" style="margin: 50" alt="Panier">
+                     <br /> <span style="color: white; margin-left:-13px">Mon Panier</span>
+          </a>
+
+          </form>
+            </ul>
+         <ul class="navbar-nav mr-auto ">
+         <!-- <li class="nav-item mr-auto"><a class="nav-link " href="#">Articles</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Contact</a></li>-->
+        </ul>
+      </nav>
+    </div>
+    
+<br><br>
+</body>
+</html>
